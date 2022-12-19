@@ -1,0 +1,48 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <h1>
+                <i class="fa-solid fa-eye"></i> &nbsp; View Contact Page
+                
+
+            </h1>
+                  
+              <p style="text-align: justify">
+                This is duplicate app. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Laudantium, odio molestias nesciunt totam, iure
+                libero, facilis architecto porro aut inventore ratione ipsam. Dolorem
+                blanditiis quis quisquam sint laboriosam provident molestias. Lorem
+                ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, eius.
+                Deserunt porro animi nemo illo id facere dolor, quam sit quas temporibus
+                tempora eveniet dignissimos dolorem. Illo dolorum ducimus
+                necessitatibus?
+              </p>
+        </div>
+    </div>
+
+    <pre>
+        <!-- {{groupId | json}} -->
+    </pre>
+    <div class="container mt-4 mb-5">
+        <div class="row border p-5 align-items-center">
+            <div class="col-md-4">
+                <img [src]="contact.photo"
+                alt="no image" width="200px">
+                <br>
+                <a class="btn btn-warning ms-5 mt-2" routerLink="/"> <i class="fa-solid fa-circle-left"></i> Go Back</a>
+
+            </div>
+            <div class="col-md-8">
+
+                <ul class="list-group">
+                    <li class="list-group-item"><b>{{contact.name}}</b></li>
+                    <li class="list-group-item"><b>{{contact.email}}</b></li>
+                    <li class="list-group-item"><b>{{contact.mobile}}</b></li>
+                    <li class="list-group-item"><b>{{contact.company}}</b></li>
+                    <li class="list-group-item"><b>{{contact.title}}</b></li>
+                    <li class="list-group-item"><b>{{groupName}}</b></li>
+
+                  </ul>
+            </div>
+        </div>
+    </div>
